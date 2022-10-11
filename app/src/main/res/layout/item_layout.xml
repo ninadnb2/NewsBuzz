@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#E8E6E6"
+    android:padding="15dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#CCC1C1"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/layout">
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:outlineSpotShadowColor="@color/black"
+        android:backgroundTint="#FDF4F4"
+        card_view:cardCornerRadius="15dp">
+
+
+    <ImageView
+        android:id="@+id/newsImage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+
+        tools:srcCompat="@tools:sample/avatars"
+        tools:ignore="MissingConstraints" />
+
+
+    </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card"
+                android:layout_width="match_parent"
+                android:layout_marginTop="-25dp"
+                android:padding="5dp"
+                android:outlineSpotShadowColor="@color/black"
+                android:layout_height="match_parent"
+                android:backgroundTint="#FFFDFD"
+                card_view:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    >
+    <TextView
+        android:id="@+id/newsTitle"
+        android:textColor = "@color/black"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="end"
+        android:ems="10"
+        android:background="#F1F1F1"
+        android:maxLines="2"
+        android:padding="5dp"
+        android:text="TextView"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/newsDescription"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:textColor = "@color/black"
+        android:layout_height="match_parent"
+        android:ellipsize="end"
+        android:padding="5dp"
+        android:maxLines="2"
+        android:text="TextView"
+        tools:ignore="MissingConstraints" />
+
+
+          <TextView
+              android:id="@+id/newsAuthor"
+              style="@style/TextAppearance.AppCompat.Body1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:ellipsize="end"
+              android:padding="5dp"
+              android:textColor = "@color/black"
+              android:maxLines="2"
+              android:text="TextView"
+              tools:ignore="MissingConstraints" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Share News"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/white"
+    android:id="@+id/share"
+/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

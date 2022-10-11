@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#E8E6E6"
+    android:padding="15dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#CCC1C1"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/savelayout"
+        >
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:outlineSpotShadowColor="@color/black"
+            android:backgroundTint="#FDF4F4"
+            card_view:cardCornerRadius="15dp">
+
+
+            <ImageView
+                android:id="@+id/savenewsImage"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+
+                tools:srcCompat="@tools:sample/avatars"
+                tools:ignore="MissingConstraints" />
+
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_marginTop="-25dp"
+            android:padding="5dp"
+
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFDFD"
+            card_view:cardCornerRadius="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+                <TextView
+                    android:textColor = "@color/black"
+                    android:id="@+id/savenewsTitle"
+                    style="@style/TextAppearance.AppCompat.Headline"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:ems="10"
+                    android:background="#F1F1F1"
+                    android:maxLines="2"
+                    android:padding="5dp"
+                    android:text="TextView"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:textColor = "@color/black"
+                    android:id="@+id/savenewsDescription"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:padding="5dp"
+                    android:maxLines="2"
+                    android:text="TextView"
+                    tools:ignore="MissingConstraints" />
+
+
+                <TextView
+                    android:textColor = "@color/black"
+                    android:id="@+id/savenewsAuthor"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:padding="5dp"
+                    android:maxLines="2"
+                    android:text="TextView"
+                    tools:ignore="MissingConstraints" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:padding="2dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#ECECEC"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="180sp"
+                        android:layout_height="50sp"
+                        android:layout_marginLeft="10sp"
+                        android:textColor="@color/white"
+                        android:src="@drawable/ic_outline_delete_24"
+                        android:text="Delete News"
+                        android:id="@+id/delete_news"
+                        android:backgroundTint="@color/black"
+                        />
+
+                    <ImageButton
+                        android:layout_width="60sp"
+                        android:backgroundTint="@color/black"
+                        android:layout_height="50sp"
+                        android:layout_marginLeft="10sp"
+                        android:src="@drawable/ic_baseline_open_in_browser_24"
+                        android:text="Chrome"
+                        android:id="@+id/detail_news"/>
+                    <ImageButton
+                        android:id="@+id/notification"
+
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ic_baseline_notifications_active_24"
+                        android:backgroundTint="@color/black"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/drawable/ic_baseline_alarm_add_24.xml" value="0.288" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-land/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-land/activity_news.xml" value="0.5" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-land/activity_news_room.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-land/activity_save_news.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw320dp/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw320dp/activity_news.xml" value="0.22" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw320dp/activity_news_room.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw320dp/activity_save_news.xml" value="0.13465952563121653" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw320dp/item_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw320dp/save_news.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw480dp/activity_main.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw480dp/activity_news.xml" value="0.67" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw480dp/activity_news_room.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw480dp/activity_save_news.xml" value="0.46" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw480dp/item_layout.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw480dp/save_news.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw600dp/activity_news.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw600dp/activity_news_room.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw600dp/activity_save_news.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw600dp/item_layout.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw600dp/save_news.xml" value="0.1" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw700dp/activity_main.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw720dp/activity_news.xml" value="0.10686095931997572" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw720dp/activity_news_room.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw720dp/activity_save_news.xml" value="0.22" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw720dp/item_layout.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-sw720dp/save_news.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-xxxhdpi/activity_main.xml" value="0.2533399307273627" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout-xxxhdpi/activity_news.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout/activity_main.xml" value="0.55" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout/activity_news.xml" value="0.5" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout/activity_news_room.xml" value="0.6443514644351465" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout/activity_save_news.xml" value="0.25" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout/activity_saved.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout/item_layout.xml" value="0.29717180244829045" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/layout/save_news.xml" value="0.25" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1) - Copy/NewsAPI/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1)/NewsAPI/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1)/NewsAPI/app/src/main/res/layout/activity_news.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1)/NewsAPI/app/src/main/res/layout/activity_news_room.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1)/NewsAPI/app/src/main/res/layout/activity_save_news.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1)/NewsAPI/app/src/main/res/layout/activity_saved.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1)/NewsAPI/app/src/main/res/layout/item_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ninad.Bhase/AndroidStudioProjects/NewsAPI (1)/NewsAPI/app/src/main/res/layout/save_news.xml" value="0.24003623188405798" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
