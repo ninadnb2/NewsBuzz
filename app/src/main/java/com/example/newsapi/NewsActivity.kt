@@ -90,21 +90,31 @@ class NewsActivity:AppCompatActivity() {
 
 
                 if (title.isNotEmpty()) {
-                    newsEntity = NewsEntity(0, title, desc, author, content, imageurl,newsurl)
+
                     // newsDB.dao().insertNews(newsEntity)
 
                     val dao = NewsDatabase.getAppDb(this@NewsActivity)?.dao()
-                    dao?.insertNews(newsEntity)
-                    simpleWork()
+                    val existingNews = dao?.getNewsByTitle(title)
 
-                    // startActivity(Intent(this@NewsActivity,NewsRoomActivity::class.java))
-                    val intent = Intent(this@NewsActivity, NewsRoomActivity::class.java)
-                    /* intent.putExtra("newstitle",newstitle)
+                    if(existingNews == null) {
+                        newsEntity = NewsEntity(0, title, desc, author, content, imageurl, newsurl)
+
+                        dao?.insertNews(newsEntity)
+                        simpleWork()
+
+                        // startActivity(Intent(this@NewsActivity,NewsRoomActivity::class.java))
+                        val intent = Intent(this@NewsActivity, NewsRoomActivity::class.java)
+                        /* intent.putExtra("newstitle",newstitle)
                     intent.putExtra("newsauthor",newsauthor)
                     intent.putExtra("newsdescription",newsdescription)
                     intent.putExtra("newscontent",newscontent)*/
 
-                    startActivity(intent)
+                        startActivity(intent)
+                    }
+                    else{
+                        Toast.makeText(this@NewsActivity, "News already saved", Toast.LENGTH_LONG)
+                            .show()
+                    }
 
                 } else {
                     Toast.makeText(this@NewsActivity, "No news to save", Toast.LENGTH_LONG)

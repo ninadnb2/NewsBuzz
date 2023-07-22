@@ -52,7 +52,7 @@ class NewsRoomActivity : AppCompatActivity() ,SavedReAdapter.NewsItemClicked {
         //getSavedNews(newsentity)
         saveNewsList.apply {
             layoutManager = LinearLayoutManager(this@NewsRoomActivity)
-            adapter = SavedReAdapter(this@NewsRoomActivity,newsentity)
+            adapter = SavedReAdapter(this@NewsRoomActivity, newsentity as ArrayList<NewsEntity>)
 
         }
 
@@ -80,10 +80,10 @@ class NewsRoomActivity : AppCompatActivity() ,SavedReAdapter.NewsItemClicked {
     }
 
 
-    override fun deleteclick(item: List<NewsEntity>, position: Int) {
-        val item = item[position]
+    override fun deleteclick(itemList: MutableList<NewsEntity>, position: Int) {
+        val itemToDelete = itemList[position]
         val dao = NewsDatabase.getAppDb(this@NewsRoomActivity)?.dao()
-        dao?.deleteNews(item)
+        dao?.deleteNews(itemToDelete)
     }
 
     override fun detailclick(item: NewsEntity, position: Int) {

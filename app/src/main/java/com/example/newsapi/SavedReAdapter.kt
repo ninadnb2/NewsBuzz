@@ -2,6 +2,7 @@ package com.example.newsapi
 
 import MyWorker
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,9 +17,10 @@ import kotlinx.android.synthetic.main.item_layout.*
 import java.security.AccessController.getContext
 import java.util.concurrent.TimeUnit
 
-class SavedReAdapter(val newsItemClicked: NewsItemClicked, val savednews: List<NewsEntity>): RecyclerView.Adapter<SavedReAdapter.SavedNewsViewHolder> () {
+class SavedReAdapter(val newsItemClicked: NewsItemClicked, val savednews: ArrayList<NewsEntity>): RecyclerView.Adapter<SavedReAdapter.SavedNewsViewHolder> () {
     private var list = emptyList<News>()
     private val items: ArrayList<News> = ArrayList()
+    private lateinit var context:Context
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SavedNewsViewHolder {
         val view: View = LayoutInflater.from(parent.context).inflate(R.layout.activity_save_news, parent, false)
         return SavedNewsViewHolder(view)
@@ -40,8 +42,14 @@ class SavedReAdapter(val newsItemClicked: NewsItemClicked, val savednews: List<N
             newsItemClicked.onItemClicked(savednews, position)
         }
         holder.delete.setOnClickListener {
-            newsItemClicked.deleteclick(savednews,position)
-            Toast.makeText(holder.delete.context, "News Deleted", Toast.LENGTH_SHORT).show()
+            if (savednews != null) {
+                newsItemClicked.deleteclick(savednews, position)
+                savednews.removeAt(position)
+                notifyItemRemoved(position)
+                notifyItemRangeChanged(position,itemCount-position)
+                Log.e("ninad","$position")
+                Toast.makeText(holder.delete.context, "News Deleted", Toast.LENGTH_SHORT).show()
+            }
         }
 
         holder.detail.setOnClickListener {
@@ -120,7 +128,7 @@ class SavedReAdapter(val newsItemClicked: NewsItemClicked, val savednews: List<N
 
     interface NewsItemClicked {
         fun onItemClicked(item: List<NewsEntity>, position: Int)
-        fun deleteclick(item: List<NewsEntity>, position: Int)
+        fun deleteclick(itemList: MutableList<NewsEntity>, position: Int)
         fun detailclick(item:NewsEntity,position: Int)
     }
 }

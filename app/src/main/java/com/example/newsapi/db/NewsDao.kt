@@ -12,6 +12,10 @@ interface NewsDao {
     @Insert(onConflict=OnConflictStrategy.REPLACE)
     fun insertNews(newsEntity: NewsEntity)
 
+
+    @Query("SELECT * FROM NEWS_TABLE WHERE title = :title")
+    fun getNewsByTitle(title: String): NewsEntity?
+
     @Delete()
     fun deleteNews(newsEntity: NewsEntity)
 
